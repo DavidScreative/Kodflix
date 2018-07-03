@@ -5,14 +5,32 @@
   display: flex;
   justify-content: space-around;
   flex-basis: auto; 
-  }
+    }
   
-  .image-cover-row-item {
+.image-cover-row-item {
+  position: relative;
   height: auto;
   }
   img{width: 100%;}
 
-  @media only screen and (max-width: 640px) {
+.image-cover-row-item-overlay {
+  display: none;
+  position: absolute;
+  opacity: .8;
+  bottom: 0;
+  background-color: black;
+  color: red;
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  }
+    
+.image-cover-row-item:hover .image-cover-row-item-overlay {
+  display: block;
+  }
+
+@media only screen and (max-width: 640px) {
     .image-cover-row {
      display: block;}
     body {
