@@ -15,36 +15,30 @@ class App extends Component {
             <div className='image-cover-row-item'>
             <img src={Blackmirrorcover} alt="Black Mirror">
             </img>
-              <h1>Black Mirror</h1>
             </div>
             <div className='image-cover-row-item'>
             <img src={Breakingbadcover} alt="Breaking Bad">
               </img>      
-              <h1>Breaking Bad</h1>
             </div>
             <div className='image-cover-row-item'>
             <img src={Deathnotecover} alt="Death Note">
-              </img>      
-              <h1>Death Note</h1>
+              </img> 
             </div>
           </div>
             <div className='image-cover-row'>
             <div className='image-cover-row-item'>
             <img src={Gameofthronescover} alt="Game of Thrones">
             </img>
-              <h1>Game of Thrones</h1>
-            </div>
+           </div>
             <div className='image-cover-row-item'>
             <img src={Fearthewalkingdeadcover} alt="Fear The Walking Dead">
             </img>
-              <h1>Fear The Walking Dead</h1>
             </div>
              <div className='image-cover-row-item'>
              <div className="Tvshow-cover">
             <img src={Thewirecover} alt="The Wire">
               </img>      
-              <h1>The Wire</h1>
-              </div>
+            </div>
             </div>
           </div>
         </div>
